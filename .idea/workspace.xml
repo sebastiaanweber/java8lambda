@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5728330b-33f7-41d5-9124-46c0ccb97527" name="Default Changelist" comment="" />
+    <list default="true" id="5728330b-33f7-41d5-9124-46c0ccb97527" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams/StreamMapReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams/StreamsLimitSkipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams/StreamsMatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams/StreamsMinMaxExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/nl/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/nl/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/nl/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/nl/data/StudentDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-8/nl/weber/streams/StreamReduceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-8/nl/weber/streams/StreamReduceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/data/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,26 +38,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="47" />
+          <entry key="java" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="65" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="6236" />
+          <entry key="java" value="7143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6236" />
+          <entry key="JAVA" value="7143" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -54,12 +68,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java">
+        <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamsMatchExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +93,9 @@
     <findStrings>
       <find>default</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/SupplierExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/methodreference/FunctionMethodReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/methodreference/ConsumerMethodReferenceExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/methodreference/RefactorMethodReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/ConstructorReference/ContructorReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/lambdas/LambdaVariable1.java" />
@@ -107,12 +124,18 @@
         <option value="$PROJECT_DIR$/src/nl/weber/streams/CollectionsVsStreams.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamMapsExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/data/Student.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsFlatMapExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsComparotorExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsComparatorExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsFilterExample.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/data/Student.java" />
+        <option value="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamMapReduceExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsMinMaxExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsLimitSkipExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsMatchExample.java" />
       </list>
     </option>
   </component>
@@ -121,6 +144,7 @@
     <option name="width" value="1294" />
     <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -164,14 +188,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nl" type="462c0819:PsiDirectoryNode" />
               <item name="weber" type="462c0819:PsiDirectoryNode" />
-              <item name="ConstructorReference" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lambda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nl" type="462c0819:PsiDirectoryNode" />
-              <item name="weber" type="462c0819:PsiDirectoryNode" />
               <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -185,7 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;comparator&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Comparator.class&#10;runna&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551897943147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551901483799" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5686275" />
@@ -202,9 +218,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamReduceExample">
-    <configuration name="StreamMapsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamMapsExample" />
+  <component name="RunManager" selected="Application.StreamsMatchExample">
+    <configuration name="StreamMapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamMapReduceExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -219,24 +235,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsComparatorExample" />
+    <configuration name="StreamsLimitSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsLimitSkipExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsFilterExample" />
+    <configuration name="StreamsMatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsMatchExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsFlatMapExample" />
+    <configuration name="StreamsMinMaxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.streams.StreamsMinMaxExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -250,19 +266,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamMapsExample" />
-      <item itemvalue="Application.StreamsFlatMapExample" />
-      <item itemvalue="Application.StreamsComparatorExample" />
-      <item itemvalue="Application.StreamsFilterExample" />
       <item itemvalue="Application.StreamReduceExample" />
+      <item itemvalue="Application.StreamMapReduceExample" />
+      <item itemvalue="Application.StreamsMinMaxExample" />
+      <item itemvalue="Application.StreamsLimitSkipExample" />
+      <item itemvalue="Application.StreamsMatchExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsMatchExample" />
+        <item itemvalue="Application.StreamsLimitSkipExample" />
+        <item itemvalue="Application.StreamsMinMaxExample" />
+        <item itemvalue="Application.StreamMapReduceExample" />
         <item itemvalue="Application.StreamReduceExample" />
-        <item itemvalue="Application.StreamsFilterExample" />
-        <item itemvalue="Application.StreamsComparatorExample" />
-        <item itemvalue="Application.StreamsFlatMapExample" />
-        <item itemvalue="Application.StreamMapsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -278,8 +294,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34035656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29902756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,14 +305,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26012462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943925" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32943925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,56 +394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/ConsumerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiConsumerExampl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateExampla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/weber/lambdas/ComparatorLambdaExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateAndConsumerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -441,43 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiFunctionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/UnaryOperatorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BInaryOperatorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/SupplierExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -503,26 +437,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateStudentExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/data/StudentDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,17 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamsFlatMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -640,6 +543,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/data/StudentDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" selection-start-line="36" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamMapReduceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/weber/ConstructorReference/ContructorReferenceExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -650,12 +605,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java">
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiConsumerExampl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BInaryOperatorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiFunctionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/ConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateAndConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateExampla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateStudentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/SupplierExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/UnaryOperatorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamsMinMaxExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamsLimitSkipExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamsMatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>

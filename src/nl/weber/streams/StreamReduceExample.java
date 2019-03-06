@@ -20,6 +20,11 @@ public class StreamReduceExample {
                 });
     }
 
+    public static Optional<Student> getHighestGPAStudentClean() {
+        return StudentDataBase.getAllStudents().stream()
+                .reduce((s1, s2) -> (s1.getGpa() > s2.getGpa() ? s1 : s2));
+    }
+
     public static int performMultiplication(List<Integer> integerList) {
         return integerList.stream().reduce(1, (a, b) -> a * b);
     }
@@ -35,7 +40,7 @@ public class StreamReduceExample {
         System.out.println(performMultiplicationWithout(integers).get());
 
 
-        Optional<Student> student = getHighestGPAStudent();
+        Optional<Student> student = getHighestGPAStudentClean();
         System.out.println(student);
     }
 
