@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5728330b-33f7-41d5-9124-46c0ccb97527" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamBoxedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamExmaple1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamGroupingByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsCountingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsJoiningExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsMappingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsMinByMaxByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsPartioniongByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl/weber/streams_terminal/StreamsSumAvgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/data/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/optional/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/optional/OptionalMapFlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/optional/OptionalOfEmptyNullableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/optional/OptionalOrElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/optional/OptionalPresentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/parallelstream/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nl/weber/parallelstream/SumClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-8/nl/weber/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nl/weber/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/data/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,15 +25,15 @@
     <session id="2118736124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +48,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="91" />
+          <entry key="JAVA" value="102" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -62,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11299" />
+          <entry key="JAVA" value="13424" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -71,10 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamBoxedExample.java">
+        <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalMapFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+            <state relative-caret-position="882">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,14 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nl/weber/lambdas/ComparatorLambdaExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/ConsumerExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiConsumerExampl.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateExampla.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateStudentExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/PredicateAndConsumerExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionExample1.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionStudentsExampla.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/BiFunctionExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/functionalinterfaces/UnaryOperatorExample.java" />
@@ -130,8 +120,6 @@
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsFilterExample.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamReduceExample.java" />
-        <option value="$PROJECT_DIR$/src/nl/data/Student.java" />
-        <option value="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamMapReduceExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsMinMaxExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/streams/StreamsLimitSkipExample.java" />
@@ -153,6 +141,16 @@
         <option value="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamExample.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamExmaple1.java" />
         <option value="$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamBoxedExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/parallelstream/Sum.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/parallelstream/SumClient.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/optional/OptionalExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/optional/OptionalOfEmptyNullableExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/optional/OptionalOrElseExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/optional/OptionalPresentExample.java" />
+        <option value="$PROJECT_DIR$/src/nl/data/Bike.java" />
+        <option value="$PROJECT_DIR$/src/nl/data/Student.java" />
+        <option value="$PROJECT_DIR$/src/nl/data/StudentDataBase.java" />
+        <option value="$PROJECT_DIR$/src/nl/weber/optional/OptionalMapFlatMapExample.java" />
       </list>
     </option>
   </component>
@@ -169,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +190,13 @@
               <item name="Lambda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nl" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lambda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nl" type="462c0819:PsiDirectoryNode" />
               <item name="weber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,18 +205,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nl" type="462c0819:PsiDirectoryNode" />
               <item name="weber" type="462c0819:PsiDirectoryNode" />
-              <item name="parallelstream" type="462c0819:PsiDirectoryNode" />
+              <item name="optional" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;comparator&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Comparator.class&#10;runna&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Runnable.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924552373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553022176849" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5686275" />
@@ -229,41 +234,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamBoxedExample">
-    <configuration name="ParallelStreamBoxedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.parallelstream.ParallelStreamBoxedExample" />
+  <component name="RunManager" selected="Application.OptionalMapFlatMapExample">
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.optional.OptionalExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.parallelstream.ParallelStreamExample" />
+    <configuration name="OptionalMapFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.optional.OptionalMapFlatMapExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExmaple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.parallelstream.ParallelStreamExmaple1" />
+    <configuration name="OptionalOfEmptyNullableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.optional.OptionalOfEmptyNullableExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamGroupingByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams_terminal.StreamGroupingByExample" />
+    <configuration name="OptionalOrElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.optional.OptionalOrElseExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPartioniongByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.weber.streams_terminal.StreamsPartioniongByExample" />
+    <configuration name="OptionalPresentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.weber.optional.OptionalPresentExample" />
       <module name="java-8" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -277,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamGroupingByExample" />
-      <item itemvalue="Application.StreamsPartioniongByExample" />
-      <item itemvalue="Application.ParallelStreamExample" />
-      <item itemvalue="Application.ParallelStreamExmaple1" />
-      <item itemvalue="Application.ParallelStreamBoxedExample" />
+      <item itemvalue="Application.OptionalExample" />
+      <item itemvalue="Application.OptionalOfEmptyNullableExample" />
+      <item itemvalue="Application.OptionalOrElseExample" />
+      <item itemvalue="Application.OptionalPresentExample" />
+      <item itemvalue="Application.OptionalMapFlatMapExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelStreamBoxedExample" />
-        <item itemvalue="Application.ParallelStreamExmaple1" />
-        <item itemvalue="Application.ParallelStreamExample" />
-        <item itemvalue="Application.StreamsPartioniongByExample" />
-        <item itemvalue="Application.StreamGroupingByExample" />
+        <item itemvalue="Application.OptionalMapFlatMapExample" />
+        <item itemvalue="Application.OptionalPresentExample" />
+        <item itemvalue="Application.OptionalOrElseExample" />
+        <item itemvalue="Application.OptionalOfEmptyNullableExample" />
+        <item itemvalue="Application.OptionalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +321,7 @@
     <frame x="1273" y="0" width="1294" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31037277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28200972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16978194" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3123053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,58 +381,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/functionalinterfaces/FunctionStudentsExampla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/methodreference/FunctionMethodReferenceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/methodreference/ConsumerMethodReferenceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/methodreference/RefactorMethodReferenceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-8.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/lambdas/LambdaVariable1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/lambdas/LambdaVariable2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/CollectionsVsStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/weber/streams/StreamMapsExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -460,28 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/data/StudentDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-          <folding>
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,8 +716,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/weber/parallelstream/ParallelStreamBoxedExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="432">
           <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/parallelstream/SumClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/parallelstream/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalOfEmptyNullableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalOrElseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalPresentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/data/StudentDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/data/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/weber/optional/OptionalMapFlatMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
